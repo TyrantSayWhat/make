@@ -34,6 +34,6 @@ jobs:
   - name: Publish generated content to GitHub Pages
       uses: TyrantSayWhat/make/actions-publish-gh-pages@v1.0.1
       with:
-          dir: dist
+          dir: docs
           branch: gh-pages
           token: ${{ secrets.ACCESS_TOKEN }}
