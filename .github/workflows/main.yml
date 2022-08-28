@@ -28,7 +28,7 @@ jobs:
         node-version: '14.15.1'
     - run: npm install
     - run: npm install -g @angular/cli > /dev/null
-    - run: ng build --configuration production --aot --output-path=dist --base-href="https://tyrantsaywhat.github.io/make/"
+    - run: ng build --output-path=docs --base-href="https://tyrantsaywhat.github.io/make/"
 
     # Runs a set of commands using the runners shell
   - name: Publish generated content to GitHub Pages
